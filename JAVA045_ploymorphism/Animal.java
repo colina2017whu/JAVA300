@@ -3,7 +3,7 @@ package JAVA300.JAVA045_ploymorphism;
 public class Animal {
     String str;
     public void voice(){
-        System.out.println("普通动物叫声！");
+        System.out.println("普通动物叫声");
     }
 }
 

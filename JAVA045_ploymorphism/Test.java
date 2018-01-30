@@ -3,7 +3,7 @@ package JAVA300.JAVA045_ploymorphism;
 public class Test {
     public static void testAnimalVoice(Animal c){
         c.voice();
-        if(c instanceof Cat){
+        if(c instanceof Cat){ //c是否使指向Cat的实例
             ((Cat) c).catchMouse();
         }
     }
