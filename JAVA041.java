@@ -55,7 +55,7 @@ public class JAVA041 {
     public static class JAVA0413 {
         JAVA0411 S4 = new JAVA0411();
         public void JAVA04101() {
-            S4.JAVA04101();
+            S4.JAVA04101();//使用组合代替继承
             System.out.println("test5");
         }
     }
