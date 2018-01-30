@@ -27,5 +27,4 @@ class Dog extends Animal  {
         System.out.println("狗步狂奔");
     }
 }
-//***
 
