@@ -1,5 +1,10 @@
 package JAVA300.JAVA045_ploymorphism;
 
+/**
+ * 测试多态
+ *
+ */
+
 public class Animal {
     String str;
     public void voice(){
@@ -37,4 +42,4 @@ class Pig extends Animal {
         System.out.println("哼哼哼");
     }
 }
-
+//***

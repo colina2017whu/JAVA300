@@ -1,5 +1,10 @@
 package JAVA300.JAVA048_abstractClass;
 
+/**
+ *
+ * 测试抽象类
+ */
+
 public abstract class Animal {
     String str;
     public abstract void run(); //抽象方法的意义在于：将方法的设计和实现分离！！
@@ -22,4 +27,5 @@ class Dog extends Animal  {
         System.out.println("狗步狂奔");
     }
 }
+//***
 
